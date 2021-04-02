@@ -1,0 +1,8 @@
+1.Wireless USB OC Big Sur Adapter-V7 这个驱动用于驱动USB网卡，这个驱动在安装过程中会明确指出会安装在 ESP/EFI/xxxxx的路径下，也就是说你的黑苹果磁盘的引导盘的名字必须为ESP而不是随意取或者直接就叫EFI，否则会提示安装成功但是并不会驱动成功，安装过程中或者安装完毕时如果显示一个wifi的图标则表示安装成功，重启即可联网
+
+
+安装至倒数第二部会提示以下信息：
+Install ➔ /ESP/EFI/OC/RtWlanU1827.kext, RtWlanU.kext,  //这里注意ESP如上文中描述
+Install ➔ /Library/Applications Support /WLAN 
+Install ➔ /Library/LaunchAgents /Wlan.Software.plist 
+Install ➔ /Library/LaunchDaemons/Wlan.SoftwareDaemon.plist

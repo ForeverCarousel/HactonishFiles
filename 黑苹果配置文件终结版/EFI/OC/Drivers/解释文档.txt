@@ -1,0 +1,24 @@
+AudioDxe.efi 开机UEFI界面若需要声音效果需要加载。
+
+CrScreenshotDxe.efi 开机UEFI的截图工具。
+
+HiiDatabase.efi 用于给 Ivy Bridge (3 代酷睿) 或更老代主板上支持 UEFI 字体渲染, UEFI Shell 中文字渲染异常时使用, 新主板不需要。
+
+NvmExpressDxe.efi 用于在 Haswell (4 代酷睿) 或更老的主板上支持 NVMe 硬盘, 新主板不需要。
+
+OpenCanopy.efi 加载第三方开机主题。
+
+OpenRuntime.efi 内存运用等必要的插件，必须加载。
+
+OpenUsbKbDxe.efi 给使用模拟 UEFI 的老主板在 OpenCore 界面正常输入用的, 请勿在 Ivy Bridge (3 代酷睿)及以上的主板上使用。
+
+Ps2KeyboardDxe.efi PS2键盘所需插件。
+
+Ps2MouseDxe.efi PS2鼠标所需插件。
+
+UsbMouseDxe.efi 当MacOS被安装在虚拟机上所需要的鼠标插件。
+
+XhciDxe.efi 用于在 Sandy Bridge（2代）及之前或更老的主板上加载XHCI控制器。
+
+HfsPlus.efi 用于HFS格式文件系统，这是必须加载的。
+
